@@ -164,14 +164,6 @@ header.nav.scrolled{background:rgba(30,25,21,.92);backdrop-filter:blur(10px);box
 .badge{display:inline-block;background:rgba(78,157,45,.16);color:#A9DC8A;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:6px 13px;border-radius:999px;margin-bottom:18px}
 
 /* reviews */
-.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.rev{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px}
-.rev .stars{color:#E0982f;letter-spacing:2px;font-size:1rem}
-.rev p{color:var(--ink);font-size:1rem;font-style:italic}
-.rev .who{display:flex;align-items:center;gap:12px;margin-top:auto}
-.rev .who .ini{width:42px;height:42px;border-radius:50%;background:var(--bone);color:var(--accent);display:grid;place-items:center;font-weight:700;font-family:'Poppins',system-ui,sans-serif}
-.rev .who b{display:block;font-size:.96rem}
-.rev .who small{color:var(--muted);font-size:.82rem}
 .rev-actions{text-align:center;margin-top:44px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 
 /* review banner */
@@ -226,7 +218,7 @@ footer{background:#1C1712;color:rgba(241,233,221,.72);padding:66px 0 30px}
   .nav-links{display:none}
   .burger{display:flex}
   .trust{grid-template-columns:1fr;gap:20px}
-  .grid3,.crew-grid,.rev-grid{grid-template-columns:1fr}
+  .grid3,.crew-grid{grid-template-columns:1fr}
   .about,.contact{grid-template-columns:1fr;gap:34px}
   .about-img{order:-1}
   .foot-grid{grid-template-columns:1fr;gap:30px}
@@ -391,27 +383,7 @@ h1,h2,h3{font-weight:700;letter-spacing:-.01em}
 <section class="sec sec-bone" id="reviews">
   <div class="wrap">
     <div class="shead center reveal">
-      <span class="eyebrow">Reviews</span>
-      <h2>What Central Otago says</h2>
-      <p>Real Google reviews will show here once they're live. In the meantime, here's the kind of feedback a good local builder earns.</p>
-      <span class="badge" style="margin-top:14px">Example reviews</span>
-    </div>
-    <div class="rev-grid">
-      <div class="rev reveal">
-        <div class="stars">★★★★★</div>
-        <p>“Quoted our new kitchen honestly, turned up when they said and left the place spotless. The cabinetry is beautiful.”</p>
-        <div class="who"><span class="ini">RD</span><span><b>Rachel D.</b><small>Clyde · New kitchen</small></span></div>
-      </div>
-      <div class="rev reveal">
-        <div class="stars">★★★★★</div>
-        <p>“Renovated our kitchen and living end. Clear pricing the whole way through and no nasty surprises at the end. Easy to deal with.”</p>
-        <div class="who"><span class="ini">GT</span><span><b>Greg T.</b><small>Cromwell · Renovation</small></span></div>
-      </div>
-      <div class="rev reveal">
-        <div class="stars">★★★★★</div>
-        <p>“Built a scullery and new joinery that completely changed how the kitchen works. Tidy, reliable and great value.”</p>
-        <div class="who"><span class="ini">HM</span><span><b>Hine M.</b><small>Alexandra · Joinery</small></span></div>
-      </div>
+      <h2>Reviews</h2>
     </div>
     <div class="rev-actions reveal">
       <a class="btn btn-primary" href="https://www.google.com/maps/search/Trade+Mark+Central+Alexandra" target="_blank" rel="noopener">Leave us a Google review</a>
